@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.idea-and-planning"
+    }
+  }
+}

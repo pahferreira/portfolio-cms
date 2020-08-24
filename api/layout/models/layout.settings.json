@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "name": "Layout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    },
+    "language": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.language"
+    }
+  }
+}

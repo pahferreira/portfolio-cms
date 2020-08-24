@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_links",
+  "info": {
+    "name": "link",
+    "icon": "chevron-right"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "label_pt": {
+      "type": "string"
+    },
+    "label_en": {
+      "type": "string"
+    }
+  }
+}

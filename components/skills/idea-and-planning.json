@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_skills_idea_and_plannings",
+  "info": {
+    "name": "Section",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_pt": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_pt": {
+      "type": "text"
+    },
+    "Part": {
+      "type": "component",
+      "repeatable": false,
+      "component": "skills.principles"
+    },
+    "Tools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.tools"
+    },
+    "tools_title_en": {
+      "type": "string"
+    },
+    "tools_title_pt": {
+      "type": "string"
+    }
+  }
+}

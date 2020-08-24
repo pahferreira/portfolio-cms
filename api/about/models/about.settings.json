@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description_en": {
+      "type": "text"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "greeting_en": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "greeting_pt": {
+      "type": "string"
+    },
+    "description_pt": {
+      "type": "text"
+    }
+  }
+}

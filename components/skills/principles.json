@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_skills_principles",
+  "info": {
+    "name": "Part",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_pt": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "description_pt": {
+      "type": "text"
+    }
+  }
+}

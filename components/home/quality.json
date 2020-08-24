@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_qualities",
+  "info": {
+    "name": "quality",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "value_en": {
+      "type": "string"
+    },
+    "value_pt": {
+      "type": "string"
+    }
+  }
+}

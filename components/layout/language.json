@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_languages",
+  "info": {
+    "name": "language",
+    "icon": "h-square"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label_en": {
+      "type": "string"
+    },
+    "label_pt": {
+      "type": "string"
+    }
+  }
+}

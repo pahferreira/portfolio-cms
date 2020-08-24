@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "quality": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.quality"
+    },
+    "top_message_pt": {
+      "type": "string"
+    },
+    "top_message_en": {
+      "type": "string"
+    },
+    "bottom_message_en": {
+      "type": "string"
+    },
+    "bottom_message_pt": {
+      "type": "string"
+    }
+  }
+}

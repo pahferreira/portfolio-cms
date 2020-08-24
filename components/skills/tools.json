@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_skills_tools",
+  "info": {
+    "name": "Tool",
+    "icon": "bong"
+  },
+  "options": {},
+  "attributes": {
+    "value_pt": {
+      "type": "string"
+    },
+    "value_en": {
+      "type": "string"
+    },
+    "note_en": {
+      "type": "string"
+    },
+    "note_pt": {
+      "type": "string"
+    }
+  }
+}
