@@ -18,6 +18,14 @@
       "type": "component",
       "repeatable": true,
       "component": "layout.language"
+    },
+    "Socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.socials"
+    },
+    "contact_email": {
+      "type": "string"
     }
   }
 }
