@@ -1,4 +1,4 @@
-name: Deploy CMS to Heroku
+name: Deploy CMS to Heroku.
 
 on:
   push:
