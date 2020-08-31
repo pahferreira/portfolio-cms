@@ -9,23 +9,15 @@
     "timestamps": true
   },
   "attributes": {
-    "link": {
+    "header": {
       "type": "component",
-      "repeatable": true,
-      "component": "layout.link"
+      "repeatable": false,
+      "component": "layout.header"
     },
-    "language": {
+    "footer": {
       "type": "component",
-      "repeatable": true,
-      "component": "layout.language"
-    },
-    "Socials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "layout.socials"
-    },
-    "contact_email": {
-      "type": "string"
+      "repeatable": false,
+      "component": "layout.footer"
     }
   }
 }

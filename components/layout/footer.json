@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "contact_email": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.socials"
+    }
+  }
+}
