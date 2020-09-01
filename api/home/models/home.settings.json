@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "quality": {
+    "qualities": {
       "type": "component",
       "repeatable": true,
       "component": "home.quality"
