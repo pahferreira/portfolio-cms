@@ -34,6 +34,12 @@
     },
     "description_pt": {
       "type": "text"
+    },
+    "section_title_pt": {
+      "type": "string"
+    },
+    "section_title_en": {
+      "type": "string"
     }
   }
 }
