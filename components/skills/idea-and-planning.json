@@ -18,12 +18,12 @@
     "description_pt": {
       "type": "text"
     },
-    "Part": {
+    "part": {
       "type": "component",
       "repeatable": false,
       "component": "skills.principles"
     },
-    "Tools": {
+    "tools": {
       "type": "component",
       "repeatable": true,
       "component": "skills.tools"

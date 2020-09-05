@@ -2,17 +2,23 @@
   "kind": "singleType",
   "collectionName": "skills",
   "info": {
-    "name": "Skills"
+    "name": "skills"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Sections": {
+    "sections": {
       "type": "component",
       "repeatable": true,
       "component": "skills.idea-and-planning"
+    },
+    "section_title_pt": {
+      "type": "string"
+    },
+    "section_title_en": {
+      "type": "string"
     }
   }
 }
