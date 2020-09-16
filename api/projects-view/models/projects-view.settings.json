@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_views",
+  "info": {
+    "name": "ProjectsView"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "section_title_pt": {
+      "type": "string"
+    },
+    "section_title_en": {
+      "type": "string"
+    },
+    "tech_label_pt": {
+      "type": "string"
+    },
+    "tech_label_en": {
+      "type": "string"
+    },
+    "repo_label_pt": {
+      "type": "string"
+    },
+    "repo_label_en": {
+      "type": "string"
+    },
+    "live": {
+      "type": "string"
+    },
+    "gallery_en": {
+      "type": "string"
+    },
+    "gallery_pt": {
+      "type": "string"
+    }
+  }
+}

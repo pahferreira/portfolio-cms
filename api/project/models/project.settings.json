@@ -50,6 +50,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "live_link": {
+      "type": "string"
     }
   }
 }
