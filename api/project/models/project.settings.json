@@ -53,6 +53,11 @@
     },
     "live_link": {
       "type": "string"
+    },
+    "visible": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
