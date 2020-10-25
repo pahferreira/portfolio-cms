@@ -40,6 +40,17 @@
     },
     "section_title_en": {
       "type": "string"
+    },
+    "mobile_picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
